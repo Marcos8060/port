@@ -1,5 +1,10 @@
+import About from '@/components/about'
+import Contact from '@/components/contact'
+import Experience from '@/components/experience'
 import Hero from '@/components/hero'
 import Navbar from '@/components/navbar'
+import OtherProjects from '@/components/other-projects'
+import Projects from '@/components/projects'
 import Head from 'next/head'
 
 
@@ -15,6 +20,11 @@ export default function Home() {
       <main className='bg-primary'>
         <Navbar />
         <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <OtherProjects />
+        <Contact />
       </main>
     </>
   )

@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
+import Drawer from "./drawer";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <section className="flex items-center justify-between px-16 py-4">
+      <section className="flex items-center justify-between px-16 py-6 bg-primary fixed-top">
         <div>
-          <p className="text-secondary border border-secondary rounded px-3 py-2">M</p>
+          <p className="text-secondary border border-secondary rounded px-3 py-1">
+            M
+          </p>
         </div>
         <nav>
           <ul className="flex items-center gap-8">
@@ -21,11 +27,15 @@ const Navbar = () => {
             <li className="text-secondary text-xs">
               04. <span className="text-white text-sm">Contact</span>
             </li>
-            <li className="text-secondary border border-secondary rounded px-4 py-3 text-xs">
-                Resume
-            </li>
           </ul>
         </nav>
+        <div>
+          <AiOutlineMenu
+            className="text-secondary text-2xl cursor-pointer"
+            onClick={() => setIsOpen(true)}
+          />
+          <Drawer />
+        </div>
       </section>
     </>
   );
