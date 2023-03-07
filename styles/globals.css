@@ -8,8 +8,8 @@
     font-family: 'Inter', sans-serif;
 }
 .project_img{
-    width: 50%;
-    height: 50vh;
+    /* width: 60%; */
+    /* height: 60vh; */
     object-fit: contain;
     background: url('/images/bloow.png');
     background-size: cover;
