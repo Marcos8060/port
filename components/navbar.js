@@ -34,7 +34,7 @@ const Navbar = () => {
             className="text-secondary text-2xl cursor-pointer"
             onClick={() => setIsOpen(true)}
           />
-          <Drawer />
+          <Drawer isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </section>
     </>
