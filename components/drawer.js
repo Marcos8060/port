@@ -6,7 +6,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
     <>
       <main
         className={
-          " fixed overflow-hidden z-10 bg-white bg-opacity-25 inset-0 transform ease-in-out " +
+          " fixed overflow-hidden z-40 bg-black bg-opacity-50 inset-0 transform ease-in-out " +
           (isOpen
             ? " transition-opacity opacity-100 duration-500 translate-x-0  "
             : " transition-all delay-500 opacity-0 translate-x-full  ")
@@ -14,16 +14,12 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
       >
         <section
           className={
-            "right-0 w-full absolute bg-tertiary opacity-100 p-4 h-screen shadow-xl delay-400 duration-500 ease-in-out transition-all transform  " +
+            "right-0 w-3/12 absolute bg-tertiary opacity-100 px-8 py-12 h-screen shadow-xl delay-400 duration-500 ease-in-out transition-all transform  " +
             (isOpen ? " translate-x-0 " : " translate-x-full ")
           }
         >
-          {/* relative max-w-lg pb-10 flex flex-col space-y-6 overflow-y-auto h-full */}
           <article className="">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="uppercase text-white border border-white p-2 text-sm">Company Logo</p>
-              </div>
+            <div className="flex items-center justify-end">
               <div>
                 <AiOutlineClose
                   onClick={() => setIsOpen(false)}
@@ -32,23 +28,32 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
               </div>
             </div>
             <div className="flex items-center justify-end px-48">
-                <ul className="text-center space-y-8 w-48">
-                    <li className="w-72 border border-white px-3 py-2">
-                        <a className="no-underline text-xl text-white" href="/">Home</a>
-                    </li>
-                    <li className="w-72 border border-white px-3 py-2 hover:bg-white group">
-                        <a className="text-white no-underline text-xl" href="/">About</a>
-                    </li>
-                    <li className="w-72 border border-white px-3 py-2 hover:bg-white group">
-                        <a className="text-white no-underline text-xl" href="/">Products</a>
-                    </li>
-                    <li className="w-72 border border-white px-3 py-2 hover:bg-white group">
-                        <a className="text-white no-underline text-xl" href="/">Services</a>
-                    </li>
-                    <li className="w-72 border border-white px-3 py-2 hover:bg-white group">
-                        <a className="text-white no-underline text-xl" href="/">Contact</a>
-                    </li>
-                </ul>
+              <ul className="text-center space-y-8 w-48 py-12">
+                <li className="w-72 px-3 py-2 flex flex-col gap-1 border-b border-primary">
+                  <small className="text-secondary font-bold">01.</small>
+                  <a className="no-underline text-white hover:text-secondary" href="/">
+                    About
+                  </a>
+                </li>
+                <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary">
+                  <small className="text-secondary font-bold">02.</small>
+                  <a className="text-white no-underline hover:text-secondary" href="/">
+                    Experience
+                  </a>
+                </li>
+                <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary">
+                  <small className="text-secondary font-bold">03.</small>
+                  <a className="text-white no-underline hover:text-secondary" href="/">
+                    Work
+                  </a>
+                </li>
+                <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary">
+                  <small className="text-secondary font-bold">04.</small>
+                  <a className="text-white no-underline hover:text-secondary" href="/">
+                    Contact
+                  </a>
+                </li>
+              </ul>
             </div>
           </article>
         </section>

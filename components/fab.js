@@ -15,7 +15,7 @@ const Fab = () => {
           target="_blank"
           href="https://github.com/Marcos8060"
         >
-          <AiOutlineGithub className="text-xl" />
+          <AiOutlineGithub className="text-2xl" />
         </a>
       </button>
       <button
@@ -27,7 +27,7 @@ const Fab = () => {
           target="_blank"
           href="https://www.linkedin.com/in/marcos-ochieng/"
         >
-          <FiLinkedin className="text-xl" />
+          <FiLinkedin className="text-2xl" />
         </a>
       </button>
       <button
@@ -39,7 +39,7 @@ const Fab = () => {
           target="_blank"
           href="https://twitter.com/MarcosOchieng8"
         >
-          <AiOutlineTwitter className="text-xl" />
+          <AiOutlineTwitter className="text-2xl" />
         </a>
       </button>
       <button
