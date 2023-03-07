@@ -13,7 +13,7 @@ const Navbar = () => {
             M
           </p>
         </div>
-        <nav>
+        <nav className="md:block hidden">
           <ul className="flex items-center gap-8">
             <li className="text-secondary text-xs">
               01. <span className="text-white text-sm">About</span>
@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div>
+        <div className="md:hidden block">
           <AiOutlineMenu
             className="text-secondary text-2xl cursor-pointer"
             onClick={() => setIsOpen(true)}

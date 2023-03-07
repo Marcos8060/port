@@ -12,7 +12,7 @@ const Projects = () => {
           <div class="flex-grow h-px bg-gray"></div>
         </div>
         <section className="flex py-12 px-12">
-          <div className="project_img relative hover:opacity-70 cursor-pointer"></div>
+          <div className="project_img relative cursor-pointer"></div>
           <div className="flex flex-col px-12">
             <p className="text-secondary">Featured Project</p>
             <h1 className="text-white font-black text-3xl">Bloow</h1>
