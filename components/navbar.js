@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <section className="flex items-center justify-between px-16 py-6 sticky top-0 z-50"
+      <section className="flex items-center justify-between sm:px-16 px-4 py-6 sticky top-0 z-50"
       style={{
         transition: "1s ease",
         backgroundColor: navBackground ? "#112240" : "transparent",
