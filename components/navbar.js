@@ -1,13 +1,34 @@
-import React, { useState } from "react";
+import React, { useState,useRef,useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Drawer from "./drawer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [navBackground, setNavBackground] = useState(false);
+
+  const navRef = useRef();
+  navRef.current = navBackground;
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 40;
+      if (navRef.current !== show) {
+        setNavBackground(show);
+      }
+    };
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <section className="flex items-center justify-between px-16 py-6 bg-primary fixed-top">
+      <section className="flex items-center justify-between px-16 py-6 sticky top-0 z-50"
+      style={{
+        transition: "1s ease",
+        backgroundColor: navBackground ? "#112240" : "transparent",
+      }} 
+      >
         <div>
           <p className="text-secondary border border-secondary rounded px-3 py-1">
             M
