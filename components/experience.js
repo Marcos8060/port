@@ -14,16 +14,16 @@ const Experience = () => {
   const steps = ["Dynamic Mobility", "Optica", "Cortec Solutions Africa"];
 
   return (
-    <section className="h-screen sm:px-52 px-8 py-12 sm:mt-0 mt-40">
+    <section className="sm:h-screen h-auto sm:px-52 px-4 py-12 sm:mt-0 mt-40">
       <div className="flex gap-4 items-center md:w-6/12 w-full">
         <span className="text-secondary text-sm">01.</span>
         <h1 className="text-white font-black text-2xl">Where I've Worked</h1>
         <div class="flex-grow h-px bg-gray"></div>
       </div>
 
-      <div className="flex gap-8">
-        <div className=" my-8 w-4/12">
-          <ul className="flex flex-col gap-6 border-l-2 border-tertiary px-2">
+      <div className="md:flex grid gap-8">
+        <div className="sm:my-8 mt-8 md:w-4/12 w-full">
+          <ul className="flex md:flex-col sm:gap-6 gap-1 md:border-l-2 border-tertiary sm:px-2">
             {steps.map((step, index) => (
               <li
                 className={`${
@@ -39,7 +39,7 @@ const Experience = () => {
             ))}
           </ul>
         </div>
-        <div className="my-8 w-9/12">
+        <div className="sm:my-8 md:w-9/12 w-full">
           {activeStep === 0 && (
             <>
               <div className="space-y-4">
