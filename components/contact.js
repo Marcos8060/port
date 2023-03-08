@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="h-screen py-20 space-y-4">
+      <section className="md:h-screen h-auto sm:py-20 py-4 space-y-4">
         <div className="flex items-center justify-center gap-4 text-secondary">
           <p className="text-sm">04.</p>
           <p>What's Next</p>
@@ -16,8 +16,6 @@ const Contact = () => {
           is always open. Whether you have a question or just want to say hi,
           I’ll try my best to get back to you!
         </p>
-
-
       </section>
     </>
   );
