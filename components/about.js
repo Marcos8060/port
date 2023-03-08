@@ -2,14 +2,14 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="h-screen px-36 py-12">
-      <div className="flex gap-8 items-center w-6/12 px-12">
+    <section className="h-screen sm:px-36 px-8 py-12">
+      <div className="flex gap-8 items-center md:w-6/12 w-full sm:px-12">
         <span className="text-secondary text-sm">01.</span>
         <h1 className="text-white font-black text-2xl">About Me</h1>
         <div class="flex-grow h-px bg-gray"></div>
       </div>
-      <div className="flex gap-16 my-8">
-        <div className="w-1/2 space-y-8 mx-auto">
+      <div className="md:flex grid gap-16 my-8">
+        <div className="md:w-1/2 w-full space-y-8 mx-auto">
           <p className="text-gray">
             Hello! My name is Marcos and I enjoy creating things that live on
             the internet. My interest in web development started back in 2020
