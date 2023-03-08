@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Experience = () => {
-  const [activeStep, setActiveStep] = useState(1);
+  const [activeStep, setActiveStep] = useState(0);
 
   const handleNext = () => {
     setActiveStep(activeStep + 1);

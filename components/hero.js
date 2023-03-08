@@ -4,13 +4,13 @@ import { AiOutlineDownload } from 'react-icons/ai'
 const Hero = () => {
   return (
     <>
-      <section className="px-36 space-y-4 h-screen py-24 w-9/12">
+      <section className="sm:px-36 px-8 space-y-4 h-screen py-24 md:w-9/12 w-full">
         <p className="text-secondary text-left">Hi, my name is</p>
-        <h1 className="text-white font-black text-6xl">Marcos Ochieng.</h1>
-        <h1 className="text-gray font-black text-6xl">
+        <h1 className="text-white font-black sm:text-6xl text-3xl">Marcos Ochieng.</h1>
+        <h1 className="text-gray font-black sm:text-6xl text-3xl">
           I build things for the web.
         </h1>
-        <p className="text-gray w-7/12">
+        <p className="text-gray md:w-7/12 w-full">
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible, human-centered products at{" "}
