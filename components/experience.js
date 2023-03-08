@@ -14,8 +14,8 @@ const Experience = () => {
   const steps = ["Dynamic Mobility", "Optica", "Cortec Solutions Africa"];
 
   return (
-    <section className="h-screen px-52 py-12">
-      <div className="flex gap-4 items-center w-6/12">
+    <section className="h-screen sm:px-52 px-8 py-12 sm:mt-0 mt-40">
+      <div className="flex gap-4 items-center md:w-6/12 w-full">
         <span className="text-secondary text-sm">01.</span>
         <h1 className="text-white font-black text-2xl">Where I've Worked</h1>
         <div class="flex-grow h-px bg-gray"></div>
