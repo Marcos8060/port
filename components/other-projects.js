@@ -36,11 +36,11 @@ const projects = [
 
 const OtherProjects = () => {
   return (
-    <section className="px-36">
+    <section className="sm:px-36 px-4">
       <h1 className="text-white text-center font-black text-3xl">
         Other Noteworthy Projects
       </h1>
-      <div className="grid grid-cols-3 gap-4 py-8">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4 py-8">
         {projects.map((project, index) => (
           <div
             className="bg-tertiary h-64 cursor-pointer rounded p-4 space-y-4"
