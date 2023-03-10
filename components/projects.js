@@ -54,8 +54,8 @@ const Projects = () => {
           <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
-              <p className="text-secondary text-right">Featured Project</p>
-              <h1 className="text-white font-black text-3xl text-right">
+              <p className="text-secondary md:text-right">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-right">
                 Bloow
               </h1>
             </div>
@@ -90,8 +90,8 @@ const Projects = () => {
           <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
-              <p className="text-secondary text-right">Featured Project</p>
-              <h1 className="text-white font-black text-3xl text-right">
+              <p className="text-secondary md:text-right">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-right">
                 Bloow
               </h1>
             </div>
