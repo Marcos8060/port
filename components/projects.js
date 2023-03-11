@@ -51,11 +51,10 @@ const Projects = () => {
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
-              <p className="text-secondary md:text-right">Featured Project</p>
-              <h1 className="text-white font-black text-3xl md:text-right">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
                 Bloow
               </h1>
             </div>
@@ -68,12 +67,12 @@ const Projects = () => {
                 and more.
               </p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-gray text-sm">
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
               <p>Next.js</p>
               <p>Next.js</p>
               <p>Next.js</p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-white">
+            <div className="flex items-center justify-start gap-4 text-white">
               <AiOutlineGithub
                 title="Github"
                 className="text-2xl cursor-pointer"
@@ -84,6 +83,7 @@ const Projects = () => {
               />
             </div>
           </aside>
+          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
@@ -121,8 +121,6 @@ const Projects = () => {
             </div>
           </aside>
         </section>
-
-
       </section>
     </>
   );
