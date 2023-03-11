@@ -59,13 +59,25 @@ const Experience = () => {
                   <li>
                     Work with a variety of different languages, platforms,
                     frameworks, and content management systems such as
-                    JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
-                    Prismic, and Netlify
+                    JavaScript, TypeScript, React, Next.js and Netlify
                   </li>
                   <li>
-                    Communicate with multi-disciplinary teams of engineers,
-                    designers, producers, and clients on a daily basis
+                    Maintain high standards of software quality within the team
+                    by establishing good practices and habits.
                   </li>
+                  <li>
+                    Translating the design into code using the most up to date
+                    front end technologies and tools
+                  </li>
+                  <li>
+                    Participate in testing process, test review, analysis,
+                    witnessing and certification of software.
+                  </li>
+                  <li>
+                    Collaboration with the UI/UX team in order to be in sync as
+                    far as the design was concerned.
+                  </li>
+                  <li>Research technologies and provide proof of concept.</li>
                 </ul>
               </div>
             </>
