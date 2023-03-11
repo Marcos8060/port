@@ -93,7 +93,7 @@ const Experience = () => {
                     @ Optica
                   </span>
                 </h2>
-                <p className="text-white text-sm">May 2018 - Present</p>
+                <p className="text-white text-sm">July 2022 - Sept 2022</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
                     Maintain high standards of software quality within the team
