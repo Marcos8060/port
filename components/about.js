@@ -45,7 +45,9 @@ const About = () => {
           </div>
         </div>
         <div className="w/12 mx-auto">
-          <img className="h-60 hover:bg-secondary hover:cursor-pointer" src="/images/profile.jpg" alt="" />
+          <div className="relative border-2 rounded border-secondary h-60 w-60">
+          <img className="h-60 hover:bg-secondary rounded hover:cursor-pointer absolute bottom-4 right-4" src="/images/profile.jpg" alt="" />
+          </div>
         </div>
       </div>
     </section>
