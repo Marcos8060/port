@@ -87,7 +87,7 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Backend Developer{" "}
+                  Front End Developer{" "}
                   <span className="text-secondary font-semibold">
                     {" "}
                     @ Optica
@@ -96,18 +96,26 @@ const Experience = () => {
                 <p className="text-white text-sm">May 2018 - Present</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
+                    Maintain high standards of software quality within the team
+                    by establishing good practices and habits.
+                  </li>
+                  <li>
                     Write modern, performant, maintainable code for a diverse
                     array of client and internal projects
                   </li>
                   <li>
                     Work with a variety of different languages, platforms,
                     frameworks, and content management systems such as
-                    JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
-                    Prismic, and Netlify
+                    JavaScript, TypeScript, Angular and Django.
                   </li>
                   <li>
                     Communicate with multi-disciplinary teams of engineers,
                     designers, producers, and clients on a daily basis
+                  </li>
+                  <li>Research technologies and provide proof of concept.</li>
+                  <li>
+                    Participate in testing process, test review, analysis,
+                    witnessing and certification of software.
                   </li>
                 </ul>
               </div>
@@ -130,15 +138,17 @@ const Experience = () => {
                     array of client and internal projects
                   </li>
                   <li>
-                    Work with a variety of different languages, platforms,
-                    frameworks, and content management systems such as
-                    JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
-                    Prismic, and Netlify
+                    Work with a variety of different languages such as Curl, and
+                    Microsoft Navision.
                   </li>
                   <li>
                     Communicate with multi-disciplinary teams of engineers,
                     designers, producers, and clients on a daily basis
                   </li>
+                  <li>
+                    Develop Saccos Management systems for a variety of clients.
+                  </li>
+                  <li>Research technologies and provide proof of concept.</li>
                 </ul>
               </div>
             </>
