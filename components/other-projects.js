@@ -3,19 +3,22 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const projects = [
   {
-    title: "Intergrating Algolia Searh",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiateius ea exercitationem atque? Optio.",
-    languages: ["Next.js", "Tailwind", "Firebase"],
+    title: "GitHub Users Finder",
+    desc: "Ann application that consumes the GITHUB API and displays all users with live search functionality",
+    languages: ["JavaScript", "Bootstrap", "Axios"],
+    link: "https://marcos8060.github.io/Github-Users-Finder-App/"
   },
   {
-    title: "Intergrating Algolia Searh",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiateius ea exercitationem atque? Optio.",
-    languages: ["Next.js", "Tailwind", "Firebase"],
+    title: "Netflix Clone",
+    desc: "A clone of the Netflix application that consumes the TMDB API and displays movies and their respective categories",
+    languages: ["React", "CSS", "Axios"],
+    link: "https://marcos-netflix.netlify.app/"
   },
   {
-    title: "Intergrating Algolia Searh",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiateius ea exercitationem atque? Optio.",
-    languages: ["Next.js", "Tailwind", "Firebase"],
+    title: "Space-X-Clone",
+    desc: "This is a clone of the Space-X official Website",
+    languages: ["Next.js", "Tailwind"],
+    link: "https://space-x-replica.netlify.app/"
   },
   {
     title: "Intergrating Algolia Searh",
@@ -47,7 +50,7 @@ const OtherProjects = () => {
             key={index}
           >
             <div className="flex justify-end">
-              <a target="_blank" href="/">
+              <a target="_blank" href={project.link}>
                 <BiLinkExternal
                   title="View External Link"
                   className="text-secondary text-2xl"
