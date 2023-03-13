@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
             Fast-forward to today, and I’ve had the privilege of working as a 
             <span className="text-secondary"> freelance developer</span>, at a <span className="text-secondary">start-up</span> and for a <span className="text-secondary">huge corporation</span>. My main focus these days is building
             accessible, inclusive products and digital experiences at
-            <span className="text-secondary"> Dynamic Mobility</span> for a variety of clients.
+            <a href="https://www.linkedin.com/company/dynamic-mobility-technology/about/" className="text-secondary"> Dynamic Mobility</a> for a variety of clients.
           </p>
           <p className="text-gray">
             Here are a few technologies I’ve been working with recently:
