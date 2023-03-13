@@ -12,17 +12,16 @@ const About = () => {
         <div className="md:w-1/2 w-full space-y-8 mx-auto">
           <p className="text-gray">
             Hello! My name is Marcos and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2020
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            the internet. I was always fascinated by technology and how it
+            works, and I wanted to learn how to create software and websites of
+            my own. Online resources helped me to understand the basic concepts
+            of programming languages like Python, JavaScript.
           </p>
           <p className="text-gray">
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
+            Fast-forward to today, and I’ve had the privilege of working as a 
+            <span className="text-secondary"> freelance developer</span>, at a <span className="text-secondary">start-up</span> and for a <span className="text-secondary">huge corporation</span>. My main focus these days is building
             accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            <span className="text-secondary"> Dynamic Mobility</span> for a variety of clients.
           </p>
           <p className="text-gray">
             Here are a few technologies I’ve been working with recently:
