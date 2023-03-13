@@ -11,11 +11,20 @@ const Contact = () => {
         <h1 className="font-black text-white text-4xl text-center">
           Get In Touch
         </h1>
-        <p className="text-center text-gray w-7/12 mx-auto">
-          Although I’m not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you!
+        <p className="text-center text-xl text-gray w-7/12 mx-auto">
+          Discuss a project or just want to say hi? My inbox is always open.
         </p>
+        <div className="flex flex-col items-center justify-center h-72 space-y-8">
+          <h1 className="text-center text-2xl text-gray">
+            Full Stack Developer
+          </h1>
+          <h1 className="text-center text-2xl text-secondary space-y-4">
+            Front End heavy with React and Next.js
+          </h1>
+          <h1 className="text-center text-2xl text-gray space-y-4">
+            Nairobi, Kenya
+          </h1>
+        </div>
       </section>
     </>
   );
