@@ -14,7 +14,7 @@ const Hero = () => {
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible, human-centered products at{" "}
-          <span className="text-secondary">Dynamic Mobility.</span>
+          <a href="https://www.linkedin.com/company/dynamic-mobility-technology/about/" target="_blank" className="text-secondary">Dynamic Mobility.</a>
         </p>
         <button className="text-secondary border border-secondary rounded px-4 py-3 text-xs flex items-center gap-2">
           <AiOutlineDownload className="text-xl"/>
