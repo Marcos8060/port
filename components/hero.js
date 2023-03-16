@@ -1,7 +1,16 @@
 import React from "react";
 import { AiOutlineDownload } from 'react-icons/ai'
+import resume from '../public/images/resume.pdf';
 
 const Hero = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'resume.pdf';
+    link.click();
+  };
+
   return (
     <>
       <section className="sm:px-36 px-4 space-y-4 sm:h-screen h-auto py-24 md:w-9/12 w-full">
@@ -16,7 +25,7 @@ const Hero = () => {
           building accessible, human-centered products at{" "}
           <a href="https://www.linkedin.com/company/dynamic-mobility-technology/about/" target="_blank" className="text-secondary">Dynamic Mobility.</a>
         </p>
-        <button className="text-secondary border border-secondary rounded px-4 py-3 text-xs flex items-center gap-2">
+        <button onClick={handleDownload} className="text-secondary border border-secondary rounded px-4 py-3 text-xs flex items-center gap-2">
           <AiOutlineDownload className="text-xl"/>
           Download Resume
         </button>
