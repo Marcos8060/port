@@ -11,7 +11,7 @@ const Experience = () => {
     setActiveStep(activeStep - 1);
   };
 
-  const steps = ["Dynamic Mobility", "Optica", "Cortec Solutions Africa"];
+  const steps = ["Dynamic Mobility", "Optica", "Cortec Solutions"];
 
   return (
     <section className="sm:h-screen h-auto sm:px-52 px-4 py-12 sm:mt-0 mt-40">
@@ -28,8 +28,8 @@ const Experience = () => {
               <li
                 className={`${
                   index === activeStep
-                    ? "text-secondary text-sm cursor-pointer bg-tertiary py-3 px-3 text-sm uppercase"
-                    : "text-gray cursor-pointer py-3 px-3 text-sm uppercase"
+                    ? "text-secondary md:text-sm text-xs cursor-pointer bg-tertiary py-3 px-3 md:uppercase"
+                    : "text-gray cursor-pointer py-3 px-3 text-sm md:uppercase"
                 }`}
                 key={index}
                 onClick={() => setActiveStep(index)}
