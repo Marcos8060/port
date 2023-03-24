@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="sm:px-36 px-4 space-y-4 sm:h-screen h-auto py-24 md:w-9/12 w-full">
+      <section className="sm:px-36 px-4 space-y-4 sm:h-screen h-auto py-24 md:w-10/12 w-full">
         <p className="text-secondary text-left">Hi, my name is</p>
         <h1 className="text-white font-black sm:text-6xl text-3xl">Marcos Ochieng.</h1>
         <h1 className="text-gray font-black sm:text-6xl text-3xl">

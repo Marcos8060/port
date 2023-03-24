@@ -8,7 +8,7 @@ const Fab = () => {
     <>
       <button
         title="My Github Activity"
-        className="md:block hidden fixed z-40 bottom-32 left-8 bg-blue w-12 h-12 p-2 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
+        className="md:block hidden fixed z-40 bottom-32 left-8 bg-blue w-12 h-12 p-2 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl animate-bounce duration-900"
       >
         <a
           className="text-white"
