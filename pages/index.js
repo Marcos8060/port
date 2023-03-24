@@ -7,6 +7,7 @@ import Navbar from '@/components/navbar'
 import OtherProjects from '@/components/other-projects'
 import Projects from '@/components/projects'
 import Head from 'next/head'
+import ProgressBar from '@/components/ProgressBar'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
       <main className='bg-primary'>
         <Navbar />
+        <ProgressBar />
         <Hero />
         <About />
         <Experience />
