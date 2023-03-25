@@ -23,7 +23,7 @@ const Projects = () => {
                 Bloow
               </h1>
             </div>
-            <div className="bg-tertiary z-40 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
                 A web app for displaying local music artists in Kenya and their
                 respective hit songs in their detail page. It aims to help
@@ -58,7 +58,7 @@ const Projects = () => {
                 Aice
               </h1>
             </div>
-            <div className="bg-tertiary z-40 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
                 A website for Aice Africa which is an AI company that is
                 commercially viable and sustainable, impact led and outcome
@@ -95,7 +95,7 @@ const Projects = () => {
                 Bloow
               </h1>
             </div>
-            <div className="bg-tertiary z-40 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
                 A web app for visualizing personalized Spotify data. View your
                 top artists, top tracks, recently played tracks, and detailed

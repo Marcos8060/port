@@ -6,7 +6,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
     <>
       <main
         className={
-          " fixed overflow-hidden z-40 bg-black bg-opacity-50 inset-0 transform ease-in-out " +
+          " fixed overflow-hidden z-50 bg-black bg-opacity-50 inset-0 transform ease-in-out " +
           (isOpen
             ? " transition-opacity opacity-100 duration-500 translate-x-0  "
             : " transition-all delay-500 opacity-0 translate-x-full  ")
@@ -33,7 +33,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   <small className="text-secondary font-bold">01.</small>
                   <a
                     className="no-underline text-white hover:text-secondary transition ease-in-out duration-700"
-                    href="/"
+                    href="#about"
                   >
                     About
                   </a>
@@ -42,7 +42,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   <small className="text-secondary font-bold">02.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
-                    href="/"
+                    href="#experience"
                   >
                     Experience
                   </a>
@@ -51,7 +51,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   <small className="text-secondary font-bold">03.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
-                    href="/"
+                    href="#projects"
                   >
                     Work
                   </a>
@@ -60,7 +60,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   <small className="text-secondary font-bold">04.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
-                    href="/"
+                    href="#contact"
                   >
                     Contact
                   </a>

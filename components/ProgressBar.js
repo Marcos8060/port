@@ -16,7 +16,7 @@ const ProgressBar = () => {
   }, []);
 
   return (
-      <div className='bg-secondary fixed z-50' style={{ width: `${progress}%`, height: '2px',}}></div>
+      <div className='bg-secondary fixed z-40' style={{ width: `${progress}%`, height: '2px',}}></div>
   );
 };
 
