@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="md:h-screen h-auto sm:py-20 py-4 space-y-4">
+      <section className="md:h-screen h-auto sm:py-20 py-4 space-y-4" id="contact">
         <div className="flex items-center justify-center gap-4 text-secondary">
           <p className="text-sm">04.</p>
           <p>What's Next</p>

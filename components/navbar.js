@@ -1,6 +1,7 @@
 import React, { useState,useRef,useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Drawer from "./drawer";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,16 +38,16 @@ const Navbar = () => {
         <nav className="md:block hidden">
           <ul className="flex items-center gap-8">
             <li className="text-secondary text-xs">
-              01. <span className="text-white text-sm">About</span>
+              01. <a href="#about" className="text-white text-sm">About</a>
             </li>
             <li className="text-secondary text-xs">
-              02. <span className="text-white text-sm">Experience</span>
+              02. <a href="#experience" className="text-white text-sm">Experience</a>
             </li>
             <li className="text-secondary text-xs">
-              03. <span className="text-white text-sm">Work</span>
+              03. <a href="#projects" className="text-white text-sm">Work</a>
             </li>
             <li className="text-secondary text-xs">
-              04. <span className="text-white text-sm">Contact</span>
+              04. <a href="#contact" className="text-white text-sm">Contact</a>
             </li>
           </ul>
         </nav>
