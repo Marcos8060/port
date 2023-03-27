@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="flex gap-8 items-center md:w-6/12 w-full sm:px-12">
           <span className="text-secondary text-sm font-semibold">03.</span>
           <h1 className="text-white font-black text-2xl">
-            Some Things I've Built
+            Some Things I have Built
           </h1>
           <div class="md:block hidden flex-grow h-px bg-gray"></div>
         </div>
