@@ -38,16 +38,16 @@ const Navbar = () => {
         <nav className="md:block hidden">
           <ul className="flex items-center gap-8">
             <li className="text-secondary text-xs">
-              01. <a href="#about" className="text-white text-sm">About</a>
+              <a href="#about" className="text-white text-sm">About</a>
             </li>
             <li className="text-secondary text-xs">
-              02. <a href="#experience" className="text-white text-sm">Experience</a>
+              <a href="#experience" className="text-white text-sm">Experience</a>
             </li>
             <li className="text-secondary text-xs">
-              03. <a href="#projects" className="text-white text-sm">Work</a>
+              <a href="#projects" className="text-white text-sm">Work</a>
             </li>
             <li className="text-secondary text-xs">
-              04. <a href="#contact" className="text-white text-sm">Contact</a>
+              <a href="#contact" className="text-white text-sm">Contact</a>
             </li>
           </ul>
         </nav>
