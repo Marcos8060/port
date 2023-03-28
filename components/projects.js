@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="flex gap-8 items-center md:w-6/12 w-full sm:px-12">
           <span className="text-secondary text-sm font-semibold">03.</span>
           <h1 className="text-white font-black text-2xl">
-            Some Things I have Built
+            Projects I have worked on
           </h1>
           <div class="md:block hidden flex-grow h-px bg-gray"></div>
         </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                 Aice
               </h1>
             </div>
-            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
                 A website for Aice Africa which is an AI company that is
                 commercially viable and sustainable, impact led and outcome

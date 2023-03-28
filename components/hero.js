@@ -22,7 +22,7 @@ const Hero = () => {
         <p className="text-gray md:w-7/12 w-full">
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
-          building accessible, human-centered products.
+          building accessible and human-centered products.
         </p>
         <button onClick={handleDownload} className="text-secondary border border-secondary rounded px-4 py-3 text-xs flex items-center gap-2">
           <AiOutlineDownload className="text-xl"/>

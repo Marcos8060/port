@@ -31,9 +31,9 @@ const Navbar = () => {
       }} 
       >
         <div>
-          <p className="text-secondary border border-secondary rounded px-3 py-1">
+          <Link href="/" className="text-secondary border border-secondary rounded px-3 py-2">
             M
-          </p>
+          </Link>
         </div>
         <nav className="md:block hidden">
           <ul className="flex items-center gap-8">

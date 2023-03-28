@@ -21,8 +21,7 @@ const About = () => {
           <p className="text-gray">
             Fast-forward to today, and I’ve had the privilege of working as a 
             <span className="text-secondary"> freelance developer</span>, at a <span className="text-secondary">start-up</span> and for a <span className="text-secondary">huge corporation</span>. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            <a href="https://www.linkedin.com/company/dynamic-mobility-technology/about/" target="_blank" className="text-secondary"> Dynamic Mobility</a> for a variety of clients.
+            accessible, inclusive products and digital experiences for a variety of clients.
           </p>
           <p className="text-gray">
             Here are a few technologies I’ve been working with recently:
