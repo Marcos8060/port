@@ -15,10 +15,10 @@ const Contact = () => {
           Discuss a project or just want to say hi? My inbox is always open.
         </p>
         <div className="flex flex-col items-center justify-center h-72 space-y-8">
-          <h1 className="text-center text-2xl text-gray">
+          <h1 className="text-center text-base text-gray">
             Full Stack Developer
           </h1>
-          <h1 className="text-center text-2xl text-secondary space-y-4">
+          <h1 className="text-center text-xl text-secondary space-y-4">
             Front End heavy with React and Next.js
           </h1>
           <h1 className="text-center text-2xl text-gray space-y-4">
