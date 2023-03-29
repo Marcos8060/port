@@ -14,6 +14,9 @@ const Contact = () => {
         <p className="text-center text-xl text-gray w-7/12 mx-auto">
           Discuss a project or just want to say hi? My inbox is always open.
         </p>
+        <p className="text-center text-base text-secondary w-7/12 mx-auto">
+          marcosgav80@gmail.com
+        </p>
         <div className="flex flex-col items-center justify-center h-72 space-y-8">
           <h1 className="text-center text-base text-gray">
             Full Stack Developer
