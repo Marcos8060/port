@@ -61,6 +61,49 @@ const Projects = () => {
             <div className="flex flex-col">
               <p className="text-secondary md:text-left">Featured Project</p>
               <h1 className="text-white font-black text-3xl md:text-left">
+                Movie Palace
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                A clone of the Netflix movie application developed in React and
+                Tailwind consuming the tmdb API with a mobile first approach responsive on all devices
+                using latest technologies.
+              </p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+              <p>React</p>
+              <p>Tailwind</p>
+              <p>Django</p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-white">
+              <Link
+                target="_blank"
+                href="https://github.com/Marcos8060/REACT-NETFLIX.git"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+
+              <Link target="_blank" href="https://marcos-netflix.netlify.app/">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="project4_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
                 Aice
               </h1>
             </div>
@@ -76,12 +119,12 @@ const Projects = () => {
                 </span>
               </p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+            <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>React</p>
               <p>Tailwind</p>
               <p>Django</p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-white">
+            <div className="flex items-center justify-end gap-4 text-white">
               <Link
                 target="_blank"
                 href="https://github.com/mutuajoseph/AICE-WEBSITE"
@@ -100,12 +143,9 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
 
-
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
@@ -122,12 +162,12 @@ const Projects = () => {
                 talent.
               </p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-gray text-sm">
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
               <p>React</p>
               <p>Node.js</p>
               <p>Tailwind</p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-white">
+            <div className="flex items-center justify-start gap-4 text-white">
               <AiOutlineGithub
                 title="Github"
                 className="text-2xl cursor-pointer"
@@ -140,9 +180,8 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
+          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
-
-        
       </section>
     </>
   );

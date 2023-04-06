@@ -18,7 +18,7 @@ const Experience = () => {
       <div className="flex gap-4 items-center md:w-6/12 w-full">
         <span className="text-secondary text-sm">01.</span>
         <h1 className="text-white font-black text-2xl">Where I have Worked</h1>
-        <div class="flex-grow h-px bg-gray"></div>
+        <div className="flex-grow h-px bg-gray"></div>
       </div>
 
       <div className="md:flex grid gap-8">
