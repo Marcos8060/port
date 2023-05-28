@@ -114,9 +114,7 @@ const Projects = () => {
                 driven with fearless conviction for change using data and AI for
                 good. Insanely crazy for innovation that will create jobs and
                 drive human wealth.{" "}
-                <span className="text-secondary">
-                  Site still in development
-                </span>
+                
               </p>
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
@@ -135,7 +133,7 @@ const Projects = () => {
                 />
               </Link>
 
-              <Link target="_blank" href="https://aice-landing.web.app/">
+              <Link target="_blank" href="https://www.aiceafrica.com/">
                 <BiLinkExternal
                   title="External Link"
                   className="text-2xl cursor-pointer"
