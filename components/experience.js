@@ -11,10 +11,13 @@ const Experience = () => {
     setActiveStep(activeStep - 1);
   };
 
-  const steps = ["Dynamic Mobility", "Optica", "Cortec Solutions"];
+  const steps = ["Dynamic Mobility", "Optica", "Aice Africa"];
 
   return (
-    <section className="sm:h-screen h-auto sm:px-52 px-4 py-24 sm:mt-0 mt-40" id="experience">
+    <section
+      className="sm:h-screen h-auto sm:px-52 px-4 py-24 sm:mt-0 mt-40"
+      id="experience"
+    >
       <div className="flex gap-4 items-center md:w-6/12 w-full">
         <span className="text-secondary text-sm">01.</span>
         <h1 className="text-white font-black text-2xl">Where I have Worked</h1>
@@ -53,31 +56,34 @@ const Experience = () => {
                 <p className="text-gray text-sm">Sep 2022 - Present</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    Write modern, performant, maintainable code for a diverse
-                    array of client and internal projects
+                    Leveraged AJAX and JSON technologies to establish seamless
+                    data exchange between the front-end and back-end systems,
+                    enhancing the responsiveness and interactivity of the
+                    application.
                   </li>
                   <li>
-                    Work with a variety of different languages, platforms,
-                    frameworks, and content management systems such as
-                    JavaScript, TypeScript, React, Next.js and Netlify
+                    Optimized page load times by 7% through the implementation
+                    of caching and minification techniques, enabling faster page
+                    rendering, reducing server load, and improving the overall
+                    user experience.
                   </li>
                   <li>
-                    Maintain high standards of software quality within the team
-                    by establishing good practices and habits.
+                    Implemented comprehensive unit tests to ensure code
+                    integrity and reduce the occurrence of bugs in production,
+                    resulting in improved software quality and reliability.
                   </li>
                   <li>
-                    Translating the design into code using the most up to date
-                    front end technologies and tools
+                    Achieved significantly higher customer satisfaction and
+                    conversion rates due to the faster page loading, resulting
+                    in longer average session durations, increased page views,
+                    and improved user engagement.
                   </li>
                   <li>
-                    Participate in testing process, test review, analysis,
-                    witnessing and certification of software.
+                    Utilized version control systems such as Git to manage code
+                    changes effectively and facilitate collaboration with other
+                    developers, ensuring efficient project management and
+                    codebase integrity.
                   </li>
-                  <li>
-                    Collaboration with the UI/UX team in order to be in sync as
-                    far as the design was concerned.
-                  </li>
-                  <li>Research technologies and provide proof of concept.</li>
                 </ul>
               </div>
             </>
@@ -93,7 +99,7 @@ const Experience = () => {
                     @ Optica
                   </span>
                 </h2>
-                <p className="text-white text-sm">July 2022 - Sept 2022</p>
+                <p className="text-white text-sm">July 2020 - Feb 2021</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
                     Maintain high standards of software quality within the team
@@ -125,13 +131,13 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Systems Developer{" "}
+                  Software Developer{" "}
                   <span className="text-secondary font-semibold">
                     {" "}
-                    @ Coretec Solutions Africa
+                    @ Aice Africa
                   </span>
                 </h2>
-                <p className="text-white text-sm">May 2018 - Present</p>
+                <p className="text-white text-sm">Feb 2021 - May 2022</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
                     Write modern, performant, maintainable code for a diverse
