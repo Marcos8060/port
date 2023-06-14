@@ -16,37 +16,34 @@ const Projects = () => {
         </div>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project3_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
               <h1 className="text-white font-black text-3xl md:text-right">
-                Tesla Clone
+                Bloow
               </h1>
             </div>
             <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
-                A clone of the official Tesla website developed in Next.js and
-                Tailwind, with a mobile first approach responsive on all devices
-                using latest technologies.
+                A web app for displaying local music artists in Kenya and their
+                respective hit songs in their detail page. It aims to help
+                establish artists who have not been able to find a platform at
+                the center stage by helping the artists thrive in their music
+                talent.
               </p>
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
-              <p>Next.js</p>
+              <p>React</p>
+              <p>Node.js</p>
               <p>Tailwind</p>
             </div>
             <div className="flex items-center justify-end gap-4 text-white">
-              <Link
-                target="_blank"
-                href="https://github.com/Marcos8060/Tesla-Clone"
-              >
-                <AiOutlineGithub
-                  title="Github"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-
-              <Link target="_blank" href="https://app-tesla.netlify.app/">
+              <AiOutlineGithub
+                title="Github"
+                className="text-2xl cursor-pointer"
+              />
+              <Link target="_blank" href="https://bloowafrica.com/">
                 <BiLinkExternal
                   title="External Link"
                   className="text-2xl cursor-pointer"
@@ -57,49 +54,6 @@ const Projects = () => {
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="md:w-1/2 w-full flex flex-col gap-4">
-            <div className="flex flex-col">
-              <p className="text-secondary md:text-left">Featured Project</p>
-              <h1 className="text-white font-black text-3xl md:text-left">
-                Movie Palace
-              </h1>
-            </div>
-            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
-              <p className="text-sm">
-                A clone of the Netflix movie application developed in React and
-                Tailwind consuming the tmdb API with a mobile first approach responsive on all devices
-                using latest technologies.
-              </p>
-            </div>
-            <div className="flex items-center justify-start gap-4 text-gray text-sm">
-              <p>React</p>
-              <p>Tailwind</p>
-              <p>Django</p>
-            </div>
-            <div className="flex items-center justify-start gap-4 text-white">
-              <Link
-                target="_blank"
-                href="https://github.com/Marcos8060/REACT-NETFLIX.git"
-              >
-                <AiOutlineGithub
-                  title="Github"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-
-              <Link target="_blank" href="https://marcos-netflix.netlify.app/">
-                <BiLinkExternal
-                  title="External Link"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-            </div>
-          </aside>
-          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
-        </section>
-
-        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project4_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-left">Featured Project</p>
@@ -114,15 +68,14 @@ const Projects = () => {
                 driven with fearless conviction for change using data and AI for
                 good. Insanely crazy for innovation that will create jobs and
                 drive human wealth.{" "}
-                
               </p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-gray text-sm">
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
               <p>React</p>
               <p>Tailwind</p>
               <p>Django</p>
             </div>
-            <div className="flex items-center justify-end gap-4 text-white">
+            <div className="flex items-center justify-start gap-4 text-white">
               <Link
                 target="_blank"
                 href="https://github.com/mutuajoseph/AICE-WEBSITE"
@@ -141,36 +94,42 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
+          <aside className="project4_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
               <h1 className="text-white font-black text-3xl md:text-right">
-                Bloow
+                Movie Palace
               </h1>
             </div>
-            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
-                A web app for displaying local music artists in Kenya and their
-                respective hit songs in their detail page. It aims to help
-                establish artists who have not been able to find a platform at
-                the center stage by helping the artists thrive in their music
-                talent.
+                A clone of the Netflix movie application developed in React and
+                Tailwind consuming the tmdb API with a mobile first approach
+                responsive on all devices using latest technologies.
               </p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+            <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>React</p>
-              <p>Node.js</p>
               <p>Tailwind</p>
+              <p>Django</p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-white">
-              <AiOutlineGithub
-                title="Github"
-                className="text-2xl cursor-pointer"
-              />
-              <Link target="_blank" href="https://bloowafrica.com/">
+            <div className="flex items-center justify-end gap-4 text-white">
+              <Link
+                target="_blank"
+                href="https://github.com/Marcos8060/REACT-NETFLIX.git"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+
+              <Link target="_blank" href="https://marcos-netflix.netlify.app/">
                 <BiLinkExternal
                   title="External Link"
                   className="text-2xl cursor-pointer"
@@ -178,7 +137,47 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
+                Tesla Clone
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                A clone of the official Tesla website developed in Next.js and
+                Tailwind, with a mobile first approach responsive on all devices
+                using latest technologies.
+              </p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+              <p>Next.js</p>
+              <p>Tailwind</p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-white">
+              <Link
+                target="_blank"
+                href="https://github.com/Marcos8060/Tesla-Clone"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+
+              <Link target="_blank" href="https://app-tesla.netlify.app/">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+          <aside className="project3_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
       </section>
     </>
