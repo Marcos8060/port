@@ -16,6 +16,51 @@ const Projects = () => {
         </div>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
+                RiskSolve
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                This is a system used by organizations to identify, assess, mitigate, and
+                monitor potential threats and uncertainties that could impact
+                their objectives. It involves the systematic identification of
+                risks, evaluating their potential impact and likelihood, and
+                developing strategies to minimize or eliminate them.
+              </p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+              <p>React</p>
+              <p>Tailwind</p>
+              <p>Material UI</p>
+              <p>.NET</p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-white">
+              <Link
+                target="_blank"
+                href="https://github.com/mutuajoseph/AICE-WEBSITE"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+
+              <Link target="_blank" href="https://www.aiceafrica.com/">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+          <aside className="project5_img relative cursor-pointer md:h-[80vh] rounded md:w-1/2"></aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
           <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
