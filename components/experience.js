@@ -11,7 +11,7 @@ const Experience = () => {
     setActiveStep(activeStep - 1);
   };
 
-  const steps = ["Dynamic Mobility", "Optica", "Aice Africa"];
+  const steps = ["Dynamic Mobility", "Aice Africa", "Optica"];
 
   return (
     <section
@@ -56,30 +56,33 @@ const Experience = () => {
                 <p className="text-gray text-sm">Sep 2022 - Present</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    Leveraged AJAX and JSON technologies to establish seamless
+                    Develop and test internal dashboards that mainly help to
+                    streamline data management using React and Redux.
+                  </li>
+                  <li>
+                    I leverage AJAX and JSON technologies to establish seamless
                     data exchange between the front-end and back-end systems,
                     enhancing the responsiveness and interactivity of the
                     application.
                   </li>
                   <li>
-                    Optimized page load times by 7% through the implementation
-                    of caching and minification techniques, enabling faster page
+                    Optimize page load times by 7% through the implementation of
+                    caching and minification techniques, enabling faster page
                     rendering, reducing server load, and improving the overall
-                    user experience.
+                    user experience
                   </li>
                   <li>
-                    Implemented comprehensive unit tests to ensure code
-                    integrity and reduce the occurrence of bugs in production,
-                    resulting in improved software quality and reliability.
+                    Integrate third-party APIs to expand functionality and
+                    enrich the user experience, providing additional features
+                    and services to the application
                   </li>
                   <li>
-                    Achieved significantly higher customer satisfaction and
-                    conversion rates due to the faster page loading, resulting
-                    in longer average session durations, increased page views,
-                    and improved user engagement.
+                    Implement comprehensive unit tests using Enzyme and Cypress
+                    to ensure code integrity and reduce the occurrence of bugs
+                    in production.
                   </li>
                   <li>
-                    Utilized version control systems such as Git to manage code
+                    Utilize version control systems such as Git to manage code
                     changes effectively and facilitate collaboration with other
                     developers, ensuring efficient project management and
                     codebase integrity.
@@ -88,8 +91,47 @@ const Experience = () => {
               </div>
             </>
           )}
-
           {activeStep === 1 && (
+            <>
+              <div className="space-y-4">
+                <h2 className="text-white">
+                  Software Developer{" "}
+                  <span className="text-secondary font-semibold">
+                    {" "}
+                    @ Aice Africa
+                  </span>
+                </h2>
+                <p className="text-white text-sm">Feb 2021 - May 2022</p>
+                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
+                  <li>
+                    Developed a responsive website using React and Tailwind that
+                    is optimized for both desktop and mobile devices, resulting
+                    in a 90% increase in user engagement, longer sessions,
+                    higher page views, and improved conversion rates.
+                  </li>
+                  <li>
+                    Engineered a scalable and high-performance front-end
+                    architecture that optimized the website's responsiveness and
+                    loading times, resulting in improved user engagement and
+                    satisfaction.
+                  </li>
+                  <li>
+                    Designed and developed a secure and interactive web
+                    application using a Next.js, ensuring a seamless user
+                    experience with an intuitive interface.
+                  </li>
+                  <li>
+                    Implemented a robust RESTful API that facilitated secure and
+                    efficient data transfer between the front-end and back-end
+                    systems, enhancing the overall functionality and reliability
+                    of the application.
+                  </li>
+                  <li>Research technologies and provide proof of concept.</li>
+                </ul>
+              </div>
+            </>
+          )}
+          {activeStep === 2 && (
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
@@ -99,7 +141,7 @@ const Experience = () => {
                     @ Optica
                   </span>
                 </h2>
-                <p className="text-white text-sm">July 2020 - Feb 2021</p>
+                <p className="text-white text-sm">July 2020 - Jan 2021</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
                     Maintain high standards of software quality within the team
@@ -123,38 +165,6 @@ const Experience = () => {
                     Participate in testing process, test review, analysis,
                     witnessing and certification of software.
                   </li>
-                </ul>
-              </div>
-            </>
-          )}
-          {activeStep === 2 && (
-            <>
-              <div className="space-y-4">
-                <h2 className="text-white">
-                  Software Developer{" "}
-                  <span className="text-secondary font-semibold">
-                    {" "}
-                    @ Aice Africa
-                  </span>
-                </h2>
-                <p className="text-white text-sm">Feb 2021 - May 2022</p>
-                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
-                  <li>
-                    Write modern, performant, maintainable code for a diverse
-                    array of client and internal projects
-                  </li>
-                  <li>
-                    Work with a variety of different languages such as Curl, and
-                    Microsoft Navision.
-                  </li>
-                  <li>
-                    Communicate with multi-disciplinary teams of engineers,
-                    designers, producers, and clients on a daily basis
-                  </li>
-                  <li>
-                    Develop Saccos Management systems for a variety of clients.
-                  </li>
-                  <li>Research technologies and provide proof of concept.</li>
                 </ul>
               </div>
             </>
