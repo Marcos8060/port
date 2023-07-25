@@ -111,7 +111,7 @@ const Experience = () => {
                   </li>
                   <li>
                     Engineered a scalable and high-performance front-end
-                    architecture that optimized the website's responsiveness and
+                    architecture that optimized the website responsiveness and
                     loading times, resulting in improved user engagement and
                     satisfaction.
                   </li>
