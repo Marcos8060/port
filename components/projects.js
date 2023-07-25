@@ -57,7 +57,7 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project5_img relative cursor-pointer md:h-[80vh] rounded md:w-1/2"></aside>
+          <aside className="project5_img relative cursor-pointer md:h-[80vh] h-72 rounded md:w-1/2"></aside>
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
