@@ -23,14 +23,13 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
               <div>
                 <AiOutlineClose
                   onClick={() => setIsOpen(false)}
-                  className="text-white text-3xl float-right cursor-pointer"
+                  className="text-secondary text-3xl float-right cursor-pointer"
                 />
               </div>
             </div>
             <div className="flex items-center justify-end px-48">
               <ul className="text-left space-y-8 w-48 py-12">
                 <li className="w-72 px-3 py-2 flex flex-col gap-1 border-b border-primary hover:border-secondary transition ease-in-out duration-700">
-                  <small className="text-secondary font-bold">01.</small>
                   <a
                     className="no-underline text-white hover:text-secondary transition ease-in-out duration-700"
                     href="#about"
@@ -39,7 +38,6 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   </a>
                 </li>
                 <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary hover:border-secondary transition ease-in-out duration-700">
-                  <small className="text-secondary font-bold">02.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
                     href="#experience"
@@ -48,7 +46,6 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   </a>
                 </li>
                 <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary hover:border-secondary transition ease-in-out duration-700">
-                  <small className="text-secondary font-bold">03.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
                     href="#projects"
@@ -57,7 +54,6 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
                   </a>
                 </li>
                 <li className="w-72 px-3 py-2 group flex flex-col gap-1 border-b border-primary hover:border-secondary transition ease-in-out duration-700">
-                  <small className="text-secondary font-bold">04.</small>
                   <a
                     className="text-white no-underline hover:text-secondary transition ease-in-out duration-700"
                     href="#contact"

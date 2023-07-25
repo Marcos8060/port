@@ -48,7 +48,7 @@ const Experience = () => {
               <div className="space-y-4">
                 <h2 className="text-white">
                   Front End Developer{" "}
-                  <span className="text-secondary font-semibold text-sm">
+                  <span className="text-secondary text-sm">
                     {" "}
                     @ Dynamic Mobility Technology
                   </span>
@@ -96,7 +96,7 @@ const Experience = () => {
               <div className="space-y-4">
                 <h2 className="text-white">
                   Software Developer{" "}
-                  <span className="text-secondary font-semibold">
+                  <span className="text-secondary">
                     {" "}
                     @ Aice Africa
                   </span>
@@ -136,7 +136,7 @@ const Experience = () => {
               <div className="space-y-4">
                 <h2 className="text-white">
                   Front End Developer{" "}
-                  <span className="text-secondary font-semibold">
+                  <span className="text-secondary">
                     {" "}
                     @ Optica
                   </span>

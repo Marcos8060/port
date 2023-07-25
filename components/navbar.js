@@ -24,18 +24,18 @@ const Navbar = () => {
 
   return (
     <>
-      <section className="flex items-center justify-between sm:px-16 px-4 py-6 sticky top-0 z-50"
+      <section className="flex justify-between sm:px-16 px-4 sticky top-0 z-50"
       style={{
         transition: "1s ease",
         backgroundColor: navBackground ? "#112240" : "transparent",
       }} 
       >
-        <div>
-          <Link href="/" className="text-secondary border border-secondary rounded px-3 py-2">
-            M
+        <div className="py-4">
+          <Link href="/" className="">
+            <img className="w-10" src="/images/me.png" alt="" />
           </Link>
         </div>
-        <nav className="md:block hidden">
+        <nav className="md:block hidden py-4">
           <ul className="flex items-center gap-8">
             <li className="text-secondary text-xs">
               <a href="#about" className="text-white text-sm">About</a>
@@ -51,7 +51,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="md:hidden block">
+        <div className="md:hidden block py-4">
           <AiOutlineMenu
             className="text-secondary text-2xl cursor-pointer"
             onClick={() => setIsOpen(true)}
