@@ -35,7 +35,7 @@ const Navbar = () => {
             <img className="w-10" src="/images/me.png" alt="" />
           </Link>
         </div>
-        <nav className="md:block hidden py-4">
+        <nav className="md:block hidden py-6">
           <ul className="flex items-center gap-8">
             <li className="text-secondary text-xs">
               <a href="#about" className="text-white text-sm">About</a>
