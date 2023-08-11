@@ -25,11 +25,12 @@ const Projects = () => {
             </div>
             <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
-                This is a system used by organizations to identify, assess, mitigate, and
-                monitor potential threats and uncertainties that could impact
-                their objectives. It involves the systematic identification of
-                risks, evaluating their potential impact and likelihood, and
-                developing strategies to minimize or eliminate them.
+                This is a system used by organizations to identify, assess,
+                mitigate, and monitor potential threats and uncertainties that
+                could impact their objectives. It involves the systematic
+                identification of risks, evaluating their potential impact and
+                likelihood, and developing strategies to minimize or eliminate
+                them.
               </p>
             </div>
             <div className="flex items-center justify-start gap-4 text-gray text-sm">
@@ -143,52 +144,11 @@ const Projects = () => {
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <aside className="project3_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
               <h1 className="text-white font-black text-3xl md:text-right">
-                Movie Palace
-              </h1>
-            </div>
-            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
-              <p className="text-sm">
-                A clone of the Netflix movie application developed in React and
-                Tailwind consuming the tmdb API with a mobile first approach
-                responsive on all devices using latest technologies.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 text-gray text-sm">
-              <p>React</p>
-              <p>Tailwind</p>
-              <p>Django</p>
-            </div>
-            <div className="flex items-center justify-end gap-4 text-white">
-              <Link
-                target="_blank"
-                href="https://github.com/Marcos8060/REACT-NETFLIX.git"
-              >
-                <AiOutlineGithub
-                  title="Github"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-
-              <Link target="_blank" href="https://marcos-netflix.netlify.app/">
-                <BiLinkExternal
-                  title="External Link"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-            </div>
-          </aside>
-        </section>
-
-        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="md:w-1/2 w-full flex flex-col gap-4">
-            <div className="flex flex-col">
-              <p className="text-secondary md:text-left">Featured Project</p>
-              <h1 className="text-white font-black text-3xl md:text-left">
                 Tesla Clone
               </h1>
             </div>
@@ -199,11 +159,11 @@ const Projects = () => {
                 using latest technologies.
               </p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+            <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>Next.js</p>
               <p>Tailwind</p>
             </div>
-            <div className="flex items-center justify-start gap-4 text-white">
+            <div className="flex items-center justify-end gap-4 text-white">
               <Link
                 target="_blank"
                 href="https://github.com/Marcos8060/Tesla-Clone"
@@ -222,7 +182,48 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project3_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
+                Movie Palace
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                A clone of the Netflix movie application developed in React and
+                Tailwind consuming the tmdb API with a mobile first approach
+                responsive on all devices using latest technologies.
+              </p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+              <p>React</p>
+              <p>Tailwind</p>
+              <p>Django</p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-white">
+              <Link
+                target="_blank"
+                href="https://github.com/Marcos8060/REACT-NETFLIX.git"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+
+              <Link target="_blank" href="https://marcos-netflix.netlify.app/">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
         </section>
       </section>
     </>
