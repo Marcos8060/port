@@ -16,6 +16,47 @@ const Projects = () => {
         </div>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <div className="w-1/2">
+            <img className="h-[50vh] object-cover w-full" src="/images/dashboard.png" />
+          </div>
+          {/* <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside> */}
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-right">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-right">
+                Bloow
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-32 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                A web app for displaying local music artists in Kenya and their
+                respective hit songs in their detail page. It aims to help
+                establish artists who have not been able to find a platform at
+                the center stage by helping the artists thrive in their music
+                talent.
+              </p>
+            </div>
+            <div className="flex items-center justify-end gap-4 text-gray text-sm">
+              <p>React</p>
+              <p>Node.js</p>
+              <p>Tailwind</p>
+            </div>
+            <div className="flex items-center justify-end gap-4 text-white">
+              <AiOutlineGithub
+                title="Github"
+                className="text-2xl cursor-pointer"
+              />
+              <Link target="_blank" href="https://bloowafrica.com/">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-left">Featured Project</p>
