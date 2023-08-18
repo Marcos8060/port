@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <div className="w-1/2">
+          <div className="md:w-1/2 w-full">
             <img
               className="h-[50vh] w-full object-cover rounded"
               src="/images/dashboard.png"
