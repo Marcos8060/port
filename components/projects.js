@@ -36,7 +36,7 @@ const Projects = () => {
                 real-time statistics on trends, investments, job markets, and
                 geographical distribution of tech hubs. This platform promotes
                 informed decision-making and collaboration within Kenya's tech
-                ecosystem.
+                ecosystem. <span className="text-secondary text-sm">Development in progress</span>
               </p>
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
