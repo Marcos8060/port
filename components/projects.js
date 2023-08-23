@@ -31,11 +31,11 @@ const Projects = () => {
             </div>
             <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
-                A web app providing vital insights into Kenya's tech sector.
+                A web app providing vital insights into Kenya tech sector.
                 Through interactive dashboards, maps, and graphs, it offers
                 real-time statistics on trends, investments, job markets, and
                 geographical distribution of tech hubs. This platform promotes
-                informed decision-making and collaboration within Kenya's tech
+                informed decision-making and collaboration within Kenyas tech
                 ecosystem. <span className="text-secondary text-sm">Development in progress</span>
               </p>
             </div>
