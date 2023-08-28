@@ -66,7 +66,7 @@ const Experience = () => {
                     application.
                   </li>
                   <li>
-                    Optimize page load times by 7% through the implementation of
+                    Optimize page load times through the implementation of
                     caching and minification techniques, enabling faster page
                     rendering, reducing server load, and improving the overall
                     user experience
@@ -117,7 +117,7 @@ const Experience = () => {
                   </li>
                   <li>
                     Designed and developed a secure and interactive web
-                    application using a Next.js, ensuring a seamless user
+                    application using Next.js, ensuring a seamless user
                     experience with an intuitive interface.
                   </li>
                   <li>
@@ -126,7 +126,7 @@ const Experience = () => {
                     systems, enhancing the overall functionality and reliability
                     of the application.
                   </li>
-                  <li>Research technologies and provide proof of concept.</li>
+                  <li>Researched technologies and provided proof of concept.</li>
                 </ul>
               </div>
             </>
@@ -144,27 +144,27 @@ const Experience = () => {
                 <p className="text-white text-sm">July 2020 - Jan 2021</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    Maintain high standards of software quality within the team
+                    Maintained high standards of software quality within the team
                     by establishing good practices and habits.
                   </li>
                   <li>
-                    Write modern, performant, maintainable code for a diverse
+                    Wrote modern, performant, maintainable code for a diverse
                     array of client and internal projects
                   </li>
                   <li>
-                    Work with a variety of different languages, platforms,
+                    Worked with a variety of different languages, platforms,
                     frameworks, and content management systems such as
                     JavaScript, TypeScript, Angular and Django.
                   </li>
                   <li>
-                    Communicate with multi-disciplinary teams of engineers,
+                    Communicated with multi-disciplinary teams of engineers,
                     designers, producers, and clients on a daily basis
                   </li>
-                  <li>Research technologies and provide proof of concept.</li>
                   <li>
-                    Participate in testing process, test review, analysis,
+                    Participated in testing process, test review, analysis,
                     witnessing and certification of software.
                   </li>
+                  <li>Researched technologies and provided proof of concept.</li>
                 </ul>
               </div>
             </>

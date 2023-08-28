@@ -41,6 +41,8 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>Next.js</p>
+              <p>TypeScript</p>
+              <p>Data Visualization tools</p>
               <p>Tailwind</p>
             </div>
             <div className="flex items-center justify-end gap-4 text-white">

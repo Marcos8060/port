@@ -17,7 +17,7 @@ const Hero = () => {
         <p className="text-secondary text-left">Hi, my name is</p>
         <h1 className="text-white font-black sm:text-6xl text-3xl">Marcos Ochieng.</h1>
         <h1 className="text-gray font-black sm:text-6xl text-3xl">
-          Front End Developer
+          Front End Engineer
         </h1>
         <p className="text-gray md:w-7/12 w-full">
           I’m a software engineer specializing in building (and occasionally
