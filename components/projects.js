@@ -50,13 +50,13 @@ const Projects = () => {
               <p>Django</p>
             </div>
             <div className="flex items-center justify-end gap-4 text-white">
-              <Link href="https://github.com/Marcos8060/Dashboard-V2">
+              <Link href="https://github.com/Marcos8060/HR-Management-System">
                 <AiOutlineGithub
                   title="Github"
                   className="text-2xl cursor-pointer"
                 />
               </Link>
-              <Link target="_blank" href="https://dashboard-v2-psi.vercel.app/">
+              <Link target="_blank" href="https://hr-management-system-eight.vercel.app/">
                 <BiLinkExternal
                   title="External Link"
                   className="text-2xl cursor-pointer"
