@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <p className="text-gray">
             Fast-forward to today, and I’ve had the privilege of working as a 
-            <span className="text-secondary"> freelance developer</span>, at a <span className="text-secondary">start-up</span> and for a <span className="text-secondary">huge corporation</span>. My main focus these days is building
+            <span className="text-secondary"> Software developer</span>, at a <span className="text-secondary">start-up</span> and for a <span className="text-secondary">huge corporation</span>. My main focus these days is building
             accessible, inclusive products and digital experiences for a variety of clients.
           </p>
           <p className="text-gray">
@@ -32,6 +32,7 @@ const About = () => {
                 <li>JavaScript (ES6+)</li>
                 <li>React</li>
                 <li>Next.js</li>
+                <li>Django</li>
               </ul>
             </div>
             <div>

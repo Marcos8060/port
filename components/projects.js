@@ -18,7 +18,7 @@ const Projects = () => {
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
           <div className="md:w-1/2 w-full">
             <img
-              className="h-[50vh] w-full object-cover rounded"
+              className="h-[50vh] w-full object-contain rounded"
               src="/images/hr.png"
             />
           </div>
@@ -36,16 +36,16 @@ const Projects = () => {
                 evaluations with ease. Acting as a central hub, it fosters
                 smooth communication and data sharing, empowering data-driven
                 decisions, productivity, and Human Resource compliance, making
-                HR processes simpler and more collaborative.
+                HR processes simpler and more collaborative. 
                 <span className="text-secondary text-sm">
-                  Development in progress
+                   Development in progress
                 </span>
               </p>
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>Next.js</p>
               <p>TypeScript</p>
-              <p>Data Visualization tools</p>
+              <p>Data Visualization</p>
               <p>Tailwind</p>
               <p>Django</p>
             </div>
@@ -113,7 +113,12 @@ const Projects = () => {
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+        <div className="md:w-1/2 w-full">
+            <img
+              className="w-full object-contain rounded"
+              src="/images/bloow.png"
+            />
+          </div>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
@@ -191,11 +196,21 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project4_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <div className="md:w-1/2 w-full">
+            <img
+              className="h-[50vh] w-full object-contain rounded"
+              src="/images/aice.png"
+            />
+          </div>
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="project3_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <div className="md:w-1/2 w-full">
+            <img
+              className="h-[50vh] w-full object-contain rounded"
+              src="/images/tesla.png"
+            />
+          </div>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
@@ -274,7 +289,13 @@ const Projects = () => {
               </Link>
             </div>
           </aside>
-          <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside>
+          <div className="md:w-1/2 w-full">
+            <img
+              className="h-[50vh] w-full object-contain rounded"
+              src="/images/movie.png"
+            />
+          </div>
+          {/* <aside className="project2_img relative cursor-pointer md:h-96 h-72 rounded md:w-1/2"></aside> */}
         </section>
       </section>
     </>
