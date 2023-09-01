@@ -19,14 +19,14 @@ const Projects = () => {
           <div className="md:w-1/2 w-full">
             <img
               className="h-[50vh] w-full object-cover rounded"
-              src="/images/dashboard.png"
+              src="/images/hr.png"
             />
           </div>
           <aside className="md:w-1/2 w-full flex flex-col gap-4">
             <div className="flex flex-col">
               <p className="text-secondary md:text-right">Featured Project</p>
               <h1 className="text-white font-black text-3xl md:text-right">
-                Dashboard
+                HR Management System
               </h1>
             </div>
             <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
