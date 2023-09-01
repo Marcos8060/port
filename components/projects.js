@@ -31,12 +31,15 @@ const Projects = () => {
             </div>
             <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
-                A web app providing vital insights into Kenya tech sector.
-                Through interactive dashboards, maps, and graphs, it offers
-                real-time statistics on trends, investments, job markets, and
-                geographical distribution of tech hubs. This platform promotes
-                informed decision-making and collaboration within Kenyas tech
-                ecosystem. <span className="text-secondary text-sm">Development in progress</span>
+                This is a web app that streamlines Human Resource tasks. It
+                manages employee data, payroll, benefits, recruitment, and
+                evaluations with ease. Acting as a central hub, it fosters
+                smooth communication and data sharing, empowering data-driven
+                decisions, productivity, and Human Resource compliance, making
+                HR processes simpler and more collaborative.
+                <span className="text-secondary text-sm">
+                  Development in progress
+                </span>
               </p>
             </div>
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
@@ -44,6 +47,7 @@ const Projects = () => {
               <p>TypeScript</p>
               <p>Data Visualization tools</p>
               <p>Tailwind</p>
+              <p>Django</p>
             </div>
             <div className="flex items-center justify-end gap-4 text-white">
               <Link href="https://github.com/Marcos8060/Dashboard-V2">
