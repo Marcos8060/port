@@ -29,7 +29,7 @@ const Projects = () => {
                 HR Management System
               </h1>
             </div>
-            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
+            <div className="bg-tertiary z-30 h-auto w-full rounded px-8 py-4 text-gray">
               <p className="text-sm">
                 This is a web app that streamlines Human Resource tasks. It
                 manages employee data, payroll, benefits, recruitment, and
