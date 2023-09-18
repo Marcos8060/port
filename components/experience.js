@@ -135,7 +135,7 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Front End Developer{" "}
+                  Full Stack Developer{" "}
                   <span className="text-secondary">
                     {" "}
                     @ Optica
