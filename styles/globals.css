@@ -104,7 +104,7 @@
 }
 .profile__img{
     object-fit: contain;
-    background: url('/images/profile.jpg');
+    background: url('/images/prof.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
