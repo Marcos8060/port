@@ -18,103 +18,6 @@ const Projects = () => {
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
           <div className="md:w-1/2 w-full">
             <img
-              className="h-[50vh] w-full object-contain rounded"
-              src="/images/hr.png"
-            />
-          </div>
-          <aside className="md:w-1/2 w-full flex flex-col gap-4">
-            <div className="flex flex-col">
-              <p className="text-secondary md:text-right">Featured Project</p>
-              <h1 className="text-white font-black text-3xl md:text-right">
-                HR Management System
-              </h1>
-            </div>
-            <div className="bg-tertiary z-30 h-auto w-full rounded px-8 py-4 text-gray">
-              <p className="text-sm">
-                This is a web app that streamlines Human Resource tasks. It
-                manages employee data, payroll, benefits, recruitment, and
-                evaluations with ease. Acting as a central hub, it fosters
-                smooth communication and data sharing, empowering data-driven
-                decisions, productivity, and Human Resource compliance, making
-                HR processes simpler and more collaborative. 
-                <span className="text-secondary text-sm">
-                   Development in progress
-                </span>
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 text-gray text-sm">
-              <p>Next.js</p>
-              <p>TypeScript</p>
-              <p>Data Visualization</p>
-              <p>Tailwind</p>
-              <p>Django</p>
-            </div>
-            <div className="flex items-center justify-end gap-4 text-white">
-              <Link href="https://github.com/Marcos8060/HR-Management-System">
-                <AiOutlineGithub
-                  title="Github"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-              <Link target="_blank" href="https://hr-management-system-eight.vercel.app/">
-                <BiLinkExternal
-                  title="External Link"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-            </div>
-          </aside>
-        </section>
-
-        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-          <aside className="md:w-1/2 w-full flex flex-col gap-4">
-            <div className="flex flex-col">
-              <p className="text-secondary md:text-left">Featured Project</p>
-              <h1 className="text-white font-black text-3xl md:text-left">
-                RiskSolve
-              </h1>
-            </div>
-            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
-              <p className="text-sm">
-                This is a system used by organizations to identify, assess,
-                mitigate, and monitor potential threats and uncertainties that
-                could impact their objectives. It involves the systematic
-                identification of risks, evaluating their potential impact and
-                likelihood, and developing strategies to minimize or eliminate
-                them.
-              </p>
-            </div>
-            <div className="flex items-center justify-start gap-4 text-gray text-sm">
-              <p>React</p>
-              <p>Tailwind</p>
-              <p>Material UI</p>
-              <p>.NET</p>
-            </div>
-            <div className="flex items-center justify-start gap-4 text-white">
-              {/* <Link
-                target="_blank"
-                href="https://github.com/mutuajoseph/AICE-WEBSITE"
-              >
-                <AiOutlineGithub
-                  title="Github"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link> */}
-
-              <Link target="_blank" href="https://app.risksolve.io/login">
-                <BiLinkExternal
-                  title="External Link"
-                  className="text-2xl cursor-pointer"
-                />
-              </Link>
-            </div>
-          </aside>
-          <aside className="project5_img relative cursor-pointer md:h-[80vh] h-72 rounded md:w-1/2"></aside>
-        </section>
-
-        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
-        <div className="md:w-1/2 w-full">
-            <img
               className="w-full object-contain rounded"
               src="/images/bloow.png"
             />
@@ -202,6 +105,106 @@ const Projects = () => {
               src="/images/aice.png"
             />
           </div>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <div className="md:w-1/2 w-full">
+            <img
+              className="h-[50vh] w-full object-contain rounded"
+              src="/images/hr.png"
+            />
+          </div>
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-right">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-right">
+                HR Management System
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                This is a web app that streamlines Human Resource tasks. It
+                manages employee data, payroll, benefits, recruitment, and
+                evaluations with ease. Acting as a central hub, it fosters
+                smooth communication and data sharing, empowering data-driven
+                decisions, productivity, and Human Resource compliance, making
+                HR processes simpler and more collaborative.
+                <span className="text-secondary text-sm">
+                  Development in progress
+                </span>
+              </p>
+            </div>
+            <div className="flex items-center justify-end gap-4 text-gray text-sm">
+              <p>Next.js</p>
+              <p>TypeScript</p>
+              <p>Data Visualization</p>
+              <p>Tailwind</p>
+              <p>Django</p>
+            </div>
+            <div className="flex items-center justify-end gap-4 text-white">
+              <Link href="https://github.com/Marcos8060/HR-Management-System">
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                href="https://hr-management-system-eight.vercel.app/"
+              >
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+        </section>
+
+        <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
+          <aside className="md:w-1/2 w-full flex flex-col gap-4">
+            <div className="flex flex-col">
+              <p className="text-secondary md:text-left">Featured Project</p>
+              <h1 className="text-white font-black text-3xl md:text-left">
+                RiskSolve
+              </h1>
+            </div>
+            <div className="bg-tertiary z-30 md:h-36 h-auto w-full rounded px-8 py-4 text-gray">
+              <p className="text-sm">
+                This is a system used by organizations to identify, assess,
+                mitigate, and monitor potential threats and uncertainties that
+                could impact their objectives. It involves the systematic
+                identification of risks, evaluating their potential impact and
+                likelihood, and developing strategies to minimize or eliminate
+                them.
+              </p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-gray text-sm">
+              <p>React</p>
+              <p>Tailwind</p>
+              <p>Material UI</p>
+              <p>.NET</p>
+            </div>
+            <div className="flex items-center justify-start gap-4 text-white">
+              {/* <Link
+                target="_blank"
+                href="https://github.com/mutuajoseph/AICE-WEBSITE"
+              >
+                <AiOutlineGithub
+                  title="Github"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link> */}
+
+              <Link target="_blank" href="https://app.risksolve.io/login">
+                <BiLinkExternal
+                  title="External Link"
+                  className="text-2xl cursor-pointer"
+                />
+              </Link>
+            </div>
+          </aside>
+          <aside className="project5_img relative cursor-pointer md:h-[80vh] h-72 rounded md:w-1/2"></aside>
         </section>
 
         <section className="md:flex items-center py-12 sm:px-12 gap-4 md:h-screen h-auto space-y-4">
