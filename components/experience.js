@@ -167,7 +167,7 @@ const Experience = () => {
                   Full Stack Developer{" "}
                   <span className="text-secondary"> @ Optica</span>
                 </h2>
-                <p className="text-white text-sm">July 2020 - Jan 2021</p>
+                <p className="text-white text-sm">Jan 2022 - June 2022</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
                     Maintained high standards of software quality within the
