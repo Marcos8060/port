@@ -11,7 +11,7 @@ const Experience = () => {
     setActiveStep(activeStep - 1);
   };
 
-  const steps = ["Dynamic Mobility", "Aice Africa", "Optica"];
+  const steps = ["Dynamic Mobility", "Muer Solutions", "Aice Africa", "Optica"];
 
   return (
     <section
@@ -47,7 +47,7 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Front End Developer{" "}
+                  Software Developer{" "}
                   <span className="text-secondary text-sm">
                     {" "}
                     @ Dynamic Mobility Technology
@@ -95,11 +95,38 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Software Developer{" "}
-                  <span className="text-secondary">
+                  Front End Developer{" "}
+                  <span className="text-secondary text-sm">
                     {" "}
-                    @ Aice Africa
+                    @ Muer Solutions
                   </span>
+                </h2>
+                <p className="text-gray text-sm">Nov 2022 - Oct 2023</p>
+                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
+                  <li>
+                    I played a key role in improving healthcare operations by
+                    developing the front-end interface for a sophisticated
+                    Health Management System. This system optimizes hospital
+                    workflows, enhances communication, and ensures efficient
+                    data management.
+                  </li>
+                  <li>
+                    My focus was on creating intuitive interfaces that empower
+                    staff to manage patient data effectively and streamline
+                    essential tasks. With expertise in front-end technologies, I
+                    contributed significantly to the system's design, enhancing
+                    the overall efficiency of hospital operations."
+                  </li>
+                </ul>
+              </div>
+            </>
+          )}
+          {activeStep === 2 && (
+            <>
+              <div className="space-y-4">
+                <h2 className="text-white">
+                  Software Developer{" "}
+                  <span className="text-secondary"> @ Aice Africa</span>
                 </h2>
                 <p className="text-white text-sm">Feb 2021 - May 2022</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
@@ -126,26 +153,25 @@ const Experience = () => {
                     systems, enhancing the overall functionality and reliability
                     of the application.
                   </li>
-                  <li>Researched technologies and provided proof of concept.</li>
+                  <li>
+                    Researched technologies and provided proof of concept.
+                  </li>
                 </ul>
               </div>
             </>
           )}
-          {activeStep === 2 && (
+          {activeStep === 3 && (
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
                   Full Stack Developer{" "}
-                  <span className="text-secondary">
-                    {" "}
-                    @ Optica
-                  </span>
+                  <span className="text-secondary"> @ Optica</span>
                 </h2>
                 <p className="text-white text-sm">July 2020 - Jan 2021</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    Maintained high standards of software quality within the team
-                    by establishing good practices and habits.
+                    Maintained high standards of software quality within the
+                    team by establishing good practices and habits.
                   </li>
                   <li>
                     Wrote modern, performant, maintainable code for a diverse
@@ -164,7 +190,9 @@ const Experience = () => {
                     Participated in testing process, test review, analysis,
                     witnessing and certification of software.
                   </li>
-                  <li>Researched technologies and provided proof of concept.</li>
+                  <li>
+                    Researched technologies and provided proof of concept.
+                  </li>
                 </ul>
               </div>
             </>
