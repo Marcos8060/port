@@ -114,8 +114,8 @@ const Experience = () => {
                     My focus was on creating intuitive interfaces that empower
                     staff to manage patient data effectively and streamline
                     essential tasks. With expertise in front-end technologies, I
-                    contributed significantly to the system's design, enhancing
-                    the overall efficiency of hospital operations."
+                    contributed significantly to the systems design, enhancing
+                    the overall efficiency of hospital operations.
                   </li>
                 </ul>
               </div>
