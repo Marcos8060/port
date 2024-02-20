@@ -12,7 +12,7 @@ const Experience = () => {
   };
 
   const steps = [
-    "ThinSynergy Limited",
+    "ThinkSynergy Limited",
     "Dynamic Mobility",
     "Muer Solutions",
     "Aice Africa",
