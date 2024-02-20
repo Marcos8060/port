@@ -37,8 +37,8 @@ const Experience = () => {
               <li
                 className={`${
                   index === activeStep
-                    ? "text-secondary md:text-sm text-xs cursor-pointer bg-tertiary py-3 px-3 md:uppercase"
-                    : "text-gray cursor-pointer py-3 px-3 text-sm md:uppercase"
+                    ? "text-secondary md:text-sm text-xs cursor-pointer bg-tertiary rounded-3xl py-2 px-3 font-bold"
+                    : "text-gray cursor-pointer py-3 px-3 text-sm"
                 }`}
                 key={index}
                 onClick={() => setActiveStep(index)}
