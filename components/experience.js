@@ -11,7 +11,13 @@ const Experience = () => {
     setActiveStep(activeStep - 1);
   };
 
-  const steps = ["Dynamic Mobility", "Muer Solutions", "Aice Africa", "Optica"];
+  const steps = [
+    "ThinSynergy Limited",
+    "Dynamic Mobility",
+    "Muer Solutions",
+    "Aice Africa",
+    "Optica",
+  ];
 
   return (
     <section
@@ -47,42 +53,69 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
+                  Lead Front End Developer{" "}
+                  <span className="text-secondary text-sm">
+                    {" "}
+                    @ ThinkSynergy Limited
+                  </span>
+                </h2>
+                <p className="text-gray text-sm">Jan 2024 - Present</p>
+                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
+                  <li>
+                    At Think Synergy, I develop and test internal dashboards
+                    that mainly help to streamline data management using Nextjs
+                    and Redux.
+                  </li>
+                  <li>
+                    I Orchestrate processes and workflows to deploy
+                    applications seamlessly i.e., by use of GitHub actions,
+                    Docker, Microsoft Azure and other relevant technologies.
+                  </li>
+                  <li>I research technologies and provided proof of concept.</li>
+                </ul>
+              </div>
+            </>
+          )}
+          {activeStep === 1 && (
+            <>
+              <div className="space-y-4">
+                <h2 className="text-white">
                   Software Developer{" "}
                   <span className="text-secondary text-sm">
                     {" "}
                     @ Dynamic Mobility Technology
                   </span>
                 </h2>
-                <p className="text-gray text-sm">Sep 2022 - Present</p>
+                <p className="text-gray text-sm">Sep 2022 - Dec 2023</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    Develop and test internal dashboards that mainly help to
+                    I Developed and tested internal dashboards that mainly help to
                     streamline data management using React and Redux.
                   </li>
                   <li>
-                    I leverage AJAX and JSON technologies to establish seamless
+                    I leveraged AJAX and JSON technologies to establish seamless
                     data exchange between the front-end and back-end systems,
                     enhancing the responsiveness and interactivity of the
                     application.
                   </li>
                   <li>
-                    Optimize page load times through the implementation of
+                    Optimized page load times through the implementation of
                     caching and minification techniques, enabling faster page
                     rendering, reducing server load, and improving the overall
                     user experience
                   </li>
                   <li>
-                    Integrate third-party APIs to expand functionality and
+                    Integrated third-party APIs to expand functionality and
                     enrich the user experience, providing additional features
                     and services to the application
                   </li>
                   <li>
-                    Implement comprehensive unit tests using Enzyme and Cypress
+                    Implemented comprehensive unit tests using Enzyme and Cypress
                     to ensure code integrity and reduce the occurrence of bugs
                     in production.
                   </li>
                   <li>
-                    Utilize version control systems such as Git to manage code
+                    Utilized version control systems such as Git to manage code
                     changes effectively and facilitate collaboration with other
                     developers, ensuring efficient project management and
                     codebase integrity.
@@ -91,7 +124,7 @@ const Experience = () => {
               </div>
             </>
           )}
-          {activeStep === 1 && (
+          {activeStep === 2 && (
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
@@ -121,7 +154,7 @@ const Experience = () => {
               </div>
             </>
           )}
-          {activeStep === 2 && (
+          {activeStep === 3 && (
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
@@ -160,7 +193,7 @@ const Experience = () => {
               </div>
             </>
           )}
-          {activeStep === 3 && (
+          {activeStep === 4 && (
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
