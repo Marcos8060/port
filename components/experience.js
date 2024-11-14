@@ -14,9 +14,9 @@ const Experience = () => {
   const steps = [
     "ThinkSynergy Limited",
     "Dynamic Mobility",
-    "Muer Solutions",
-    "Aice Africa",
     "Optica",
+    // "Muer Solutions",
+    // "Aice Africa",
   ];
 
   return (
@@ -37,8 +37,8 @@ const Experience = () => {
               <li
                 className={`${
                   index === activeStep
-                    ? "text-secondary md:text-sm text-xs cursor-pointer bg-tertiary rounded-3xl py-2 px-3 font-bold"
-                    : "text-gray cursor-pointer py-3 px-3 text-sm"
+                    ? "text-secondary md:text-sm md:text-left text-center text-xs cursor-pointer bg-tertiary rounded-3xl py-2 px-3 font-bold"
+                    : "text-gray cursor-pointer py-3 px-3 text-sm md:text-left text-center"
                 }`}
                 key={index}
                 onClick={() => setActiveStep(index)}
@@ -53,25 +53,40 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Lead Front End Developer{" "}
+                  Full Stack Developer{" "}
                   <span className="text-secondary text-sm">
                     {" "}
                     @ ThinkSynergy Limited
                   </span>
                 </h2>
-                <p className="text-gray text-sm">Jan 2024 - Present</p>
+                <p className="text-gray text-sm">Dec 2023 - Present</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    At Think Synergy, I develop and test internal dashboards
-                    that mainly help to streamline data management using Nextjs
-                    and Redux.
+                    Leading Development and Maintenance of HR Management System:
+                    I design and implement features for tracking employee
+                    information, leave, performance reviews, and department
+                    structures using React and Node.js (TypeScript) for seamless
+                    user experiences and efficient data handling.
                   </li>
                   <li>
-                    I Orchestrate processes and workflows to deploy
-                    applications seamlessly i.e., by use of GitHub actions,
-                    Docker, Microsoft Azure and other relevant technologies.
+                    Enhanced Efficiency with Custom Dashboards: I develop
+                    internal dashboards to automate HR tasks like onboarding,
+                    payroll management, and reporting, leveraging React and
+                    Redux to improve workflow transparency and data
+                    accessibility.
                   </li>
-                  <li>I research technologies and provided proof of concept.</li>
+                  <li>
+                    Streamlined Deployment and Scalability: I optimize and
+                    automate CI/CD pipelines for the HR system using GitHub
+                    Actions, Docker, and AWS, enabling seamless deployments and
+                    scalability for evolving organizational needs.
+                  </li>
+                  <li>
+                    Improved Data Security and Compliance: I ensure secure
+                    handling of employee data and compliance with data
+                    protection standards, implementing role-based access control
+                    and secure API interactions.
+                  </li>
                 </ul>
               </div>
             </>
@@ -80,45 +95,30 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Software Developer{" "}
+                  Front End Developer{" "}
                   <span className="text-secondary text-sm">
                     {" "}
                     @ Dynamic Mobility Technology
                   </span>
                 </h2>
-                <p className="text-gray text-sm">Sep 2022 - Dec 2023</p>
+                <p className="text-gray text-sm">Sep 2021 - Nov 2023</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    I Developed and tested internal dashboards that mainly help to
-                    streamline data management using React and Redux.
+                    At Dynamic Mobility, I leveraged React.js, Nextjs, CSS, and
+                    Tailwind CSS to build a responsive, interactive interface
+                    for a risk management system, enabling users to effectively
+                    monitor and mitigate potential risks. This user-friendly
+                    interface was designed to streamline workflows, enhance
+                    visibility into risk data, and support proactive
+                    decision-making with a clean and organized layout.
                   </li>
                   <li>
-                    I leveraged AJAX and JSON technologies to establish seamless
-                    data exchange between the front-end and back-end systems,
-                    enhancing the responsiveness and interactivity of the
-                    application.
+                    Lead and coordinated all frontend processes by use of Jira.
                   </li>
                   <li>
-                    Optimized page load times through the implementation of
-                    caching and minification techniques, enabling faster page
-                    rendering, reducing server load, and improving the overall
-                    user experience
-                  </li>
-                  <li>
-                    Integrated third-party APIs to expand functionality and
-                    enrich the user experience, providing additional features
-                    and services to the application
-                  </li>
-                  <li>
-                    Implemented comprehensive unit tests using Enzyme and Cypress
-                    to ensure code integrity and reduce the occurrence of bugs
-                    in production.
-                  </li>
-                  <li>
-                    Utilized version control systems such as Git to manage code
-                    changes effectively and facilitate collaboration with other
-                    developers, ensuring efficient project management and
-                    codebase integrity.
+                    I orchestrated processes and workflows to deploy above
+                    applications seamlessly i.e., by use of GitHub actions,
+                    Docker, AWS and other relevant technologies.
                   </li>
                 </ul>
               </div>
@@ -128,100 +128,19 @@ const Experience = () => {
             <>
               <div className="space-y-4">
                 <h2 className="text-white">
-                  Front End Developer{" "}
-                  <span className="text-secondary text-sm">
-                    {" "}
-                    @ Muer Solutions
-                  </span>
+                  Back End Developer{" "}
+                  <span className="text-secondary text-sm"> @ Optica</span>
                 </h2>
-                <p className="text-gray text-sm">Nov 2022 - Oct 2023</p>
+                <p className="text-gray text-sm">Jan 2021 - Aug 2021</p>
                 <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
                   <li>
-                    I played a key role in improving healthcare operations by
-                    developing the front-end interface for a sophisticated
-                    Health Management System. This system optimizes hospital
-                    workflows, enhances communication, and ensures efficient
-                    data management.
-                  </li>
-                  <li>
-                    My focus was on creating intuitive interfaces that empower
-                    staff to manage patient data effectively and streamline
-                    essential tasks. With expertise in front-end technologies, I
-                    contributed significantly to the systems design, enhancing
-                    the overall efficiency of hospital operations.
-                  </li>
-                </ul>
-              </div>
-            </>
-          )}
-          {activeStep === 3 && (
-            <>
-              <div className="space-y-4">
-                <h2 className="text-white">
-                  Software Developer{" "}
-                  <span className="text-secondary"> @ Aice Africa</span>
-                </h2>
-                <p className="text-white text-sm">Feb 2021 - May 2022</p>
-                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
-                  <li>
-                    Developed a responsive website using React and Tailwind that
-                    is optimized for both desktop and mobile devices, resulting
-                    in a 90% increase in user engagement, longer sessions,
-                    higher page views, and improved conversion rates.
-                  </li>
-                  <li>
-                    Engineered a scalable and high-performance front-end
-                    architecture that optimized the website responsiveness and
-                    loading times, resulting in improved user engagement and
-                    satisfaction.
-                  </li>
-                  <li>
-                    Designed and developed a secure and interactive web
-                    application using Next.js, ensuring a seamless user
-                    experience with an intuitive interface.
-                  </li>
-                  <li>
-                    Implemented a robust RESTful API that facilitated secure and
-                    efficient data transfer between the front-end and back-end
-                    systems, enhancing the overall functionality and reliability
-                    of the application.
-                  </li>
-                  <li>
-                    Researched technologies and provided proof of concept.
-                  </li>
-                </ul>
-              </div>
-            </>
-          )}
-          {activeStep === 4 && (
-            <>
-              <div className="space-y-4">
-                <h2 className="text-white">
-                  Full Stack Developer{" "}
-                  <span className="text-secondary"> @ Optica</span>
-                </h2>
-                <p className="text-white text-sm">Jan 2022 - June 2022</p>
-                <ul className="marker:text-secondary text-gray text-sm list-disc space-y-4 px-4">
-                  <li>
-                    Maintained high standards of software quality within the
-                    team by establishing good practices and habits.
-                  </li>
-                  <li>
-                    Wrote modern, performant, maintainable code for a diverse
-                    array of client and internal projects
-                  </li>
-                  <li>
-                    Worked with a variety of different languages, platforms,
-                    frameworks, and content management systems such as
-                    JavaScript, TypeScript, Angular and Django.
-                  </li>
-                  <li>
-                    Communicated with multi-disciplinary teams of engineers,
-                    designers, producers, and clients on a daily basis
-                  </li>
-                  <li>
-                    Participated in testing process, test review, analysis,
-                    witnessing and certification of software.
+                    At Optica, I used Django to build a robust backend for an
+                    order tracking management system, allowing efficient
+                    management and tracking of eyeglass orders across various
+                    branches. This system streamlined order flow, ensured
+                    real-time tracking, and provided centralized insights into
+                    branch-level order statuses, enhancing overall operational
+                    efficiency and inter-branch coordination
                   </li>
                   <li>
                     Researched technologies and provided proof of concept.

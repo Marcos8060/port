@@ -48,12 +48,12 @@ const Projects = () => {
                 title="Github"
                 className="text-2xl cursor-pointer"
               />
-              <Link target="_blank" href="https://bloowafrica.com/">
+              <a target="_blank" href="https://dev.bloowafrica.com/">
                 <BiLinkExternal
                   title="External Link"
                   className="text-2xl cursor-pointer"
                 />
-              </Link>
+              </a>
             </div>
           </aside>
         </section>
@@ -81,7 +81,7 @@ const Projects = () => {
               <p>Django</p>
             </div>
             <div className="flex items-center justify-start gap-4 text-white">
-              <Link
+              <a
                 target="_blank"
                 href="https://github.com/mutuajoseph/AICE-WEBSITE"
               >
@@ -89,7 +89,7 @@ const Projects = () => {
                   title="Github"
                   className="text-2xl cursor-pointer"
                 />
-              </Link>
+              </a>
 
               <Link target="_blank" href="https://www.aiceafrica.com/">
                 <BiLinkExternal
@@ -137,26 +137,25 @@ const Projects = () => {
             <div className="flex items-center justify-end gap-4 text-gray text-sm">
               <p>Next.js</p>
               <p>TypeScript</p>
-              <p>Data Visualization</p>
               <p>Tailwind</p>
-              <p>Django</p>
+              <p>Nodejs</p>
             </div>
             <div className="flex items-center justify-end gap-4 text-white">
-              <Link href="https://github.com/Marcos8060/HR-Management-System">
+              <a target="_blank" href="https://github.com/Marcos8060/hr-frontend">
                 <AiOutlineGithub
                   title="Github"
                   className="text-2xl cursor-pointer"
                 />
-              </Link>
-              <Link
+              </a>
+              <a
                 target="_blank"
-                href="https://hr-management-system-eight.vercel.app/"
+                href="/"
               >
                 <BiLinkExternal
-                  title="External Link"
+                  title="Still in Development"
                   className="text-2xl cursor-pointer"
                 />
-              </Link>
+              </a>
             </div>
           </aside>
         </section>
